@@ -1,7 +1,7 @@
 # kalitools-documentations
 
 Kali Tool list
-- dnsenum
+- [dnsenum](./dnsenum.md)
 - dnsrecon
 - fierce
 - lbd
