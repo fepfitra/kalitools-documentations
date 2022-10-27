@@ -4,6 +4,11 @@ Checks if a given domain uses load-balancing.
 
 **Usage**: `host [-aCdilrTvVw] [-c class] [-N ndots] [-t type] [-W time] [-R number] [-m flag] [-p port] hostname [server]`
 
+## Usage example
+Test to see if the target domain (`example.com`) is using a load balancer
+
+**command** : `lbd example.com`
+
 | Options | information
 | ---                   | --- 
 `-a` | is equivalent to `-v -t ANY`

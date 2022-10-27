@@ -14,6 +14,10 @@ DNSRecon is a Python script that provides the ability to perform:
 
 **usage**: `dnsrecon.py [-h] [-d DOMAIN] [-n NS_SERVER] [-r RANGE] [-D DICTIONARY] [-f] [-a] [-s] [-b] [-y] [-k] [-w] [-z] [--threads THREADS] [--lifetime LIFETIME] [--tcp] [--db DB] [-x XML] [-c CSV] [-j JSON] [--iw] [--disable_check_recursion] [--disable_check_bindversion] [-V] [-v] [-t TYPE]`
 
+## Usage example
+Scan a domain (`-d example.com`), use a dictionary to brute force hostnames (`-D /usr/share/wordlists/dnsmap.txt`), do a standard scan (`-t std`), and save the output to a file (`–xml dnsrecon.xml`)
+
+**command** : `dnsenum --noreverse -o mydomain.xml example.com`
 ## options:
 
 | Options | information

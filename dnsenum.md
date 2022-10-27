@@ -16,6 +16,12 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 **Usage**: `dnsenum [Options] <domain>`
 
+## Usage example
+
+Don’t do a reverse lookup (`–noreverse`) and save the output to a file (`-o mydomain.xml`) for the domain `example.com`
+
+**command** : `dnsenum --noreverse -o mydomain.xml example.com`
+
 ## [Options]:
 
 Note: If no `-f` tag supplied will default to `/usr/share/dnsenum/dns.txt` or the `dns.txt` file in the same directory as `dnsenum.pl`

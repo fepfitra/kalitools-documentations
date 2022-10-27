@@ -10,6 +10,11 @@ Because it uses DNS primarily you will often find mis-configured networks that l
 **usage**: `fierce [-h] [--domain DOMAIN] [--connect] [--wide] [--traverse TRAVERSE] [--search SEARCH [SEARCH ...]] [--range RANGE] [--delay DELAY] [--subdomains SUBDOMAINS [SUBDOMAINS ...] | --subdomain-file SUBDOMAIN_FILE] [--dns-servers DNS_SERVERS [DNS_SERVERS ...] | --dns-file DNS_FILE] [--tcp]`
 
 A DNS reconnaissance tool for locating non-contiguous IP space.
+
+## Usage example
+Run a default scan against the target domain (`-dns example.com`)
+
+**command** : `fierce -dns example.com`
         
 
 ## options:
