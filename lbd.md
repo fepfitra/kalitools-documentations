@@ -1,4 +1,7 @@
 # lbd
+
+Checks if a given domain uses load-balancing.
+
 **Usage**: `host [-aCdilrTvVw] [-c class] [-N ndots] [-t type] [-W time] [-R number] [-m flag] [-p port] hostname [server]`
 
 | Options | information
