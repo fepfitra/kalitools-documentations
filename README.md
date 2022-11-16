@@ -4,7 +4,7 @@ Kali Tool list
 - [dnsenum](./dnsenum.md)
 - [dnsrecon](./dnsrecon.md)
 - [fierce](./fierce.md)
-- lbd
+- [lbd](./lbd.md)
 - wafw00f
 - arping
 - fping
